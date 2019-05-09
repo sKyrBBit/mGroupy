@@ -1,9 +1,11 @@
 # mGroupy  
 Welcome to the mGroupy world!  
-mGroupy is a interpreter for Groupy processor, but this is still under design stage.  
-
-## copyright  
-**Copyright (c) Testa 2019**  
+mGroupy is a interpreter for Groupy processor.  
+## Note  
+mGroupy is still under design stage.  
+## License  
+mGroupy is distributed under MIT license.  
+**Copyright (c) 2019 sKyrBBit**  
   
 Open Source: Everyone can  
 - use it for free.  
