@@ -1,0 +1,18 @@
+y.tab.c parser
+
+nil
+is_atom: atom
+equals: eq
+left: car
+(define (left tuple)
+        (tuple (lambda (left right) left)))
+right: cdr
+(define (right tuple)
+        (tuple (lambda (left right) right)))
+tuple:  cons
+(define (tuple left right)
+        (lambda (f) (f left right))
+if: cond
+quote
+lambda
+define
